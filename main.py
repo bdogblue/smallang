@@ -49,6 +49,9 @@ def agree(input_candidate):
         
     return False
 
+def indent_voice():
+    return True
+
 print(agree("dogs"))
 print(agree("dogz"))
 print(agree("dogb"))
