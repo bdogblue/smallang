@@ -49,8 +49,12 @@ def agree(input_candidate):
         
     return False
 
-def indent_voice():
-    return True
+def indent_voice(input, output):
+    for n in range(len(input)):
+        if get_feature(input[n], "voice") != get_feature(output[n], "voice"):
+            return True
+    return False
+
 
 print(agree("dogs"))
 print(agree("dogz"))
