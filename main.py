@@ -1,3 +1,6 @@
+
+import tkinter as tk
+
 features_dict = {
     'd': {'voice': '+'},
     'o': {'voice': '+'},
@@ -59,3 +62,17 @@ def indent_voice(input, output):
 print(agree("dogs"))
 print(agree("dogz"))
 print(agree("dogb"))
+
+
+
+# GUI testing
+#window = tk.Tk()
+#window.title("Hello, World!")
+
+#def handle_button_press():
+#    window.destroy()
+
+#button = tk.Button(text="My simple app.", command=handle_button_press)
+#button.pack()
+
+#window.mainloop()
